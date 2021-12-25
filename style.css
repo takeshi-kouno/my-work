@@ -1,0 +1,37 @@
+
+header {
+  background-color: blue;
+  width: 700px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  height: 250px;
+  margin: 0 auto;
+  padding: 0 4%;
+  }
+
+  .site-title a {
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+  }
+  header ul {
+    display: flex;
+    padding: 10px 0;
+  }
+  header li {
+    font-size: 10pz;
+    margin-left: 30px;
+    list-style: none;
+  }
+  header li a {
+    text-decoration: none;
+    color: black;
+  }
+  header li a:hover {
+    opacity: 0.8;
+  }
+  header li img.icon {
+    width: 20px;
+  }
+  
