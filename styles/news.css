@@ -1,0 +1,27 @@
+.newslist {
+  max-width: 800pxpx;
+}
+
+@media screen and (max-width: 800px) {
+  .newslist {
+    font-size: 10px;
+  }
+}
+
+.newslist li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: center;
+  border-top: 1px solid slategray;
+}
+
+.newslist li:last-child {
+  border-bottom: 1px solid slategray;
+}
+
+#news time {
+  margin-right: 50px;
+}

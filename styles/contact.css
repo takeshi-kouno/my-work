@@ -1,0 +1,38 @@
+#contact dl {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  flex-direction: column;
+}
+#contact dt {
+  width: 100px;
+  width: 100px;
+  align-items: center;
+}
+#contact dd {
+  width: 85%;
+  margin-bottom: 10px;
+}
+#contact dd input,
+#contact dd textarea {
+  width: 100%;
+  border: solid 1px black;
+  padding: 10px;
+}
+#contact dd textarea {
+  height: 100px;
+}
+#contact .button {
+  text-align: center;
+}
+#contact .button input {
+  width: 200px;
+  background-color: black;
+  color: white;
+  padding: 15px 0;
+  border: solid 1px black;
+}
+#contact .button input:hover {
+  background: white;
+  color: black;
+}
