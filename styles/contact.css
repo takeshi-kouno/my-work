@@ -6,7 +6,6 @@
 }
 #contact dt {
   width: 100px;
-  width: 100px;
   align-items: center;
 }
 #contact dd {
@@ -14,12 +13,10 @@
   margin-bottom: 10px;
 }
 #contact dd input,
-#contact dd textarea {
+textarea {
   width: 100%;
   border: solid 1px black;
   padding: 10px;
-}
-#contact dd textarea {
   height: 100px;
 }
 #contact .button {

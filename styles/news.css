@@ -1,5 +1,5 @@
 .newslist {
-  max-width: 800pxpx;
+  max-width: 800px;
 }
 
 @media screen and (max-width: 800px) {
@@ -9,13 +9,9 @@
 }
 
 .newslist li {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: center;
   border-top: 1px solid slategray;
+  padding: 20px;
 }
 
 .newslist li:last-child {
