@@ -1,0 +1,23 @@
+.newslist {
+  max-width: 800px;
+}
+
+@media screen and (max-width: 800px) {
+  .newslist {
+    font-size: 10px;
+  }
+}
+
+.newslist li {
+  display: flex;
+  border-top: 1px solid slategray;
+  padding: 20px;
+}
+
+.newslist li:last-child {
+  border-bottom: 1px solid slategray;
+}
+
+#news time {
+  margin-right: 50px;
+}
